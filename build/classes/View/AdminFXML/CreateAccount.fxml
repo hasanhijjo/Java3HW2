@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="545.0" prefWidth="877.0" style="-fx-background-color: #1c273c;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Admin.CreateAccountController">
+   <children>
+      <Pane layoutX="64.0" layoutY="89.0" prefHeight="391.0" prefWidth="750.0" style="-fx-background-color: gray;">
+         <children>
+            <Text fill="#383560" layoutX="54.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="user id">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text fill="#383560" layoutX="54.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="username ">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text fill="#383560" layoutX="57.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" text="currency">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text fill="#383560" layoutX="61.0" layoutY="306.0" strokeType="OUTSIDE" strokeWidth="0.0" text="balance">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <TextField fx:id="usernamefilde" layoutX="289.0" layoutY="32.0" style="-fx-border-color: #383560;" />
+            <TextField fx:id="accountnumberfelde" layoutX="289.0" layoutY="152.0" style="-fx-border-color: #383560;" />
+            <TextField fx:id="useridfilde" layoutX="289.0" layoutY="95.0" style="-fx-border-color: #383560;" />
+            <TextField fx:id="currencyfild" layoutX="289.0" layoutY="219.0" style="-fx-border-color: #383560;" />
+            <TextField fx:id="balancefide" layoutX="289.0" layoutY="284.0" style="-fx-border-color: #383560;" />
+            <Button fx:id="createbtn" layoutX="501.0" layoutY="323.0" mnemonicParsing="false" onAction="#actioncreatebtn" prefHeight="42.0" prefWidth="92.0" style="-fx-background-color: #489ef4;" text="create " textFill="WHITE" />
+            <Button fx:id="cancelBtn" layoutX="608.0" layoutY="323.0" mnemonicParsing="false" onAction="#actioncancelbtn" prefHeight="42.0" prefWidth="92.0" style="-fx-background-color: tomato;" text="cancel" textFill="WHITE" />
+            <Text fill="#383560" layoutX="54.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Account Number">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Text fill="WHITE" layoutX="126.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create Account" wrappingWidth="185.7255859375">
+         <font>
+            <Font name="System Bold Italic" size="23.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

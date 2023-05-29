@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="488.0" prefWidth="444.0" style="-fx-background-color: gray;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Admin.UpdateAccountPageController">
+   <children>
+      <Label layoutX="44.0" layoutY="124.0" text="username ">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="174.0" text="user id">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="44.0" layoutY="231.0" text="Account Number">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="44.0" layoutY="281.0" text="currency">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="48.0" layoutY="333.0" text="balance">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="usernameTF" layoutX="231.0" layoutY="121.0" style="-fx-border-color: #383560;" />
+      <TextField fx:id="useridTF" layoutX="231.0" layoutY="171.0" style="-fx-border-color: #383560;" />
+      <TextField fx:id="AccountNumberTF" layoutX="231.0" layoutY="228.0" style="-fx-border-color: #383560;" />
+      <TextField fx:id="currencyTF" layoutX="231.0" layoutY="278.0" style="-fx-border-color: #383560;" />
+      <TextField fx:id="balanceTF" layoutX="231.0" layoutY="330.0" style="-fx-border-color: #383560;" />
+      <Label layoutX="133.0" layoutY="49.0" text="Update Account" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="updateBtn" layoutX="94.0" layoutY="394.0" mnemonicParsing="false" onAction="#updateBtnAction" prefHeight="45.0" prefWidth="88.0" style="-fx-background-color: #489ef4;" text="Save" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="CancelCreateBtn" layoutX="222.0" layoutY="394.0" mnemonicParsing="false" onAction="#CancelCreateBtnAction" prefHeight="45.0" prefWidth="88.0" style="-fx-background-color: tomato;" text="Cancel" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
